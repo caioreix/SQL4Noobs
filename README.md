@@ -6,18 +6,18 @@
 </p>
 
 ---
-Repositório que pretende ajudar pessoas sem, ou com pouco conhecimento de SQL.
+Bem-vindo ao curso SQL4Noobs, este repositório tem o objetivo de ajudar pessoas, com pouco ou sem conhecimento de SQL. Aqui abaixo está uma sequência de módulos que é interessante seguir para este curso. Não é obrigatório seguir a ordem, vai de você por qual parte você quer iniciar.
 
 ---
 ## Módulos
 
 1. Introdução
-    1. SQL
-    2. Banco de Dados
-    3. SGBD
+    1. [SQL](./1-Introducao/1-SQL.md)
+    2. [Banco de Dados](./1-Introducao/2-Banco_de_dados.md)
+    3. [SGBD](./1-Introducao/3-SGBD.md)
 2. Básico
     1. Conceitos básicos
-    2. As Abordagens
+    2. Abordagens
         1. Tabular
         2. Relacional
         3. Orientada a objetos
