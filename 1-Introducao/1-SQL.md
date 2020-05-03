@@ -13,12 +13,10 @@ O SQL é uma linguagem de pesquisa padrão, mas atente-se ao *padrão*, os siste
 
 Beleza, é uma linguagem para pesquisar em bancos de dados, mas o que ela vai fazer? Por quê ela existe? Por quê é tão usada?
 
-O SQL veio para tentar solucionar o problema da estruturação de sistemas de arquivos que não garantiam segurança em manter os arquivos de dados seguros, independentes, sem conflitos, entre outros problemas. Ela foi introduzida no final dos anos 80, começo dos 90. Grandes empresas necessitavam de um sistema que mantesse os dados da forma mais segura e acessível possível, foi então que as empresas que fizeram *softwares* que tinham o intuito de resolver isso, com diversos dialetos diferentes, resolveram tentar criar um padrão, chamando a ANSI e a ISO para estruturar isso de forma oficial.
+Ela foi introduzida no final dos anos 80, começo dos 90. Grandes empresas necessitavam de sistemas que mantessem os dados da forma mais segura e acessível possível, foi então que as empresas que faziam *softwares* que tinham o intuito de entregar isso, resolveram tentar criar um padrão, pois seus programas contavam com diversos dialetos diferentes para gerenciar os dados, e para facilitar para seus clientes e para eles mesmos, chamaram a ANSI e a ISO para estruturar um padrão de forma oficial, que se tornou o SQL. (resumo da história)
 
-Legal, mas o quê o SQL realmente faz? Guardar e buscar dados de forma segura. Esse é o princípio dele. Não tem muito segredo. As grandes empresas precisavam manter seus dados seguros e de fácil acesso para conseguirem montar seus relatórios, verificar histórico entre outras coisas, o que agregou muito valor e agrega até hoje.
-
-Essa possibilidade de guardar dados em um local robusto trás muitas possibilidades, que hoje permitiram muitos dos sistemas de hoje e que a internet fosse o que é hoje.
+Legal, mas o quê o SQL realmente faz? A função do SQL é permitir que você gerencie um banco de dados e resgate os dados dele da forma como quiser, claro que dentro das suas limitações, usando uma expressão que representa uma consulta ou comando para o banco de dados. Ele fornece um padrão que facilita o seu uso e leitura, parecido com o que chamamos de "linguagem natural", ou seja, ele tenta ser o mais próximo possível da linguagem humana (língua inglesa, nesse caso).
 
 ## Next step
 
-Legal, agora que você sabe um pouco sobre o que é o SQL, vamos passar para os Bancos de Dados, que são os lugares onde os dados são guardados. *Press [HERE](./1-Introducao/2-Banco_de_dados.md) to continue.* 
+Legal, agora que você sabe um pouco sobre o que é o SQL, vamos passar para o Banco de Dados, que é o local onde os dados são armazenados. *Press [HERE](./2-Banco_de_dados.md) to continue.* 
