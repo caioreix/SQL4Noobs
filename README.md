@@ -1,9 +1,6 @@
 # SQL4Noobs
 
-<p align="center">
-
 ![SQL Image](images/sql.png)
-</p>
 
 ---
 Bem-vindo ao curso SQL4Noobs, este repositório tem o objetivo de ajudar pessoas, com pouco ou sem conhecimento de SQL. Aqui abaixo está uma sequência de módulos que é interessante seguir para este curso. Não é obrigatório seguir a ordem, vai de você por qual parte você quer iniciar.
@@ -16,7 +13,7 @@ Bem-vindo ao curso SQL4Noobs, este repositório tem o objetivo de ajudar pessoas
     2. [Banco de Dados](./1-Introducao/2-Banco_de_dados.md)
     3. [SGBD](./1-Introducao/3-SGBD.md)
 2. Básico
-    1. Conceitos básicos
+    1. [Conceitos básicos](./2-Basico/1-Conceitos_basicos.md)
     2. Abordagens
         1. Tabular
         2. Relacional
