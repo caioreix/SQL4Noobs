@@ -1,4 +1,8 @@
-# Conceitos Básicos
+[← Pagina Inicial](../../README.md)
+
+<h1 align="center">Conceitos Básicos<h1>
+
+## Introdução
 
 Neste módulo falaremos sobre alguns conceitos básicos que devem ser necessários para entender esse mundo dos Bancos de Dados que existe mundo afora.
 
@@ -36,5 +40,4 @@ Levando em conta os tipos de dados que podemos armazenar, precisamos encontrar u
 
 De acordo com a regra de negócio, faremos uma combinação entre o tipo de dado e a variável. Por exemplo: um valor monetário, de R$50, é um dado contínuo e de variável numérica, um texto com uma descrição de produto, pode ser enquadrado em classificação e variável de texto, etc. Com isso é possível estruturar melhor nossa base de dados de acordo com os dados que temos ou precisaremos.
 
-## Abstração
-
+[← Pagina Inicial](../../README.md)

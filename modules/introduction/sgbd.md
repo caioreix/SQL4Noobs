@@ -1,4 +1,6 @@
-# Sistemas Gerenciadores de Bancos de Dados (SGBD)
+[← Pagina Inicial](../../README.md)
+
+<h1 align="center">Sistemas Gerenciadores de Bancos de Dados (SGBD)<h1>
 
 ## O que é um SGBD?
 
@@ -10,7 +12,7 @@ Nossa, quanta coisa! Demais né? Os SGBDs fazem tudo isso e muito mais! Não é 
 
 Falamos de muitas coisas do que um SGBD deve ser capaz de fazer e ser encarregador. Vamos olhar um pouco mais de perto sobre como é sua estrutura:
 
-![SGBD](../images/1-Introducao/Arquitetura+Geral+de+um+Sistema+de+Banco+de+Dados.jpg)
+![SGBD](../../images/introduction/arquitetura.jpg)
 Fonte: https://slideplayer.com.br/slide/3646252/
 
 Complicado né? Fique tranquilo, você vai usar a maior parte do tempo só o processador de consultas (em modo geral) para... fazer suas consultas SQL e gerenciar a estrutura do seu banco de dados. Mas é importante saber que é uma estrutura bem robusta que roda por trás.
@@ -45,4 +47,11 @@ Dê uma olhada em [DB Engines](https://db-engines.com/en/ranking) para mais SGBD
 
 ## Next step
 
-Demais! Agora você sabe mais sobre o que um SGBD é, faz e como ele é. Você acabou de passar pelo Módulo de Introdução! Agora pode passar para o Módulo Básico sem problemas! *Press [HERE](../2-Basico/1-Conceitos_basicos.md) to continue.*
+Demais! Agora você sabe mais sobre o que um SGBD é, faz e como ele é. Você acabou de passar pelo Módulo de Introdução! Agora pode passar para o Módulo Básico sem problemas! 
+
+<h1 align="right">
+<a href="./banco_de_dados.md"><img src="../../images/previous-arrow.svg" alt="previous" width="40px"></a>
+<a href=""><img src="../../images/next-arrow.svg" alt="next" width="40px"></a>
+</h1>
+
+[← Pagina Inicial](../../README.md)

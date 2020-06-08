@@ -1,4 +1,6 @@
-# SQL
+[← Pagina Inicial](../../README.md)
+
+<h1 align="center">SQL<h1>
 
 ## O que é o SQL?
 
@@ -19,4 +21,10 @@ Legal, mas o quê o SQL realmente faz? A função do SQL é permitir que você g
 
 ## Next step
 
-Legal, agora que você sabe um pouco sobre o que é o SQL, vamos passar para o Banco de Dados, que é o local onde os dados são armazenados. *Press [HERE](./2-Banco_de_dados.md) to continue.* 
+Legal, agora que você sabe um pouco sobre o que é o SQL, vamos passar para o Banco de Dados, que é o local onde os dados são armazenados.
+
+<h1 align="right">
+<a href="./banco_de_dados.md"><img src="../../images/next-arrow.svg" alt="next" width="40px"></a>
+</h1>
+
+[← Pagina Inicial](../../README.md)

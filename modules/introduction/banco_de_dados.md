@@ -1,6 +1,8 @@
-# Banco de dados
+[← Pagina Inicial](../../README.md)
 
-![Um banco de dados (literalmente)](../images/1-Introducao/bd1.jpg)
+<h1 align="center">Banco de dados<h1>
+
+![Um banco de dados (literalmente)](../../images/introduction/banco_de_dados.jpg)
 
 ## Do Caos à Luz
 
@@ -36,4 +38,11 @@ Nada impede que eles façam um banco de dados só para as finanças, outro só p
 
 ## Next step
 
-Muito bem! Agora você sabe um pouco mais sobre o que é um banco de dados, vamos passar então para os sistemas que os gerenciam. *Press [HERE](./3-SGBD.md) to continue*
+Muito bem! Agora você sabe um pouco mais sobre o que é um banco de dados, vamos passar então para os sistemas que os gerenciam.
+
+<h1 align="right">
+<a href="./sql.md"><img src="../../images/previous-arrow.svg" alt="previous" width="40px"></a>
+<a href="./sgbd.md"><img src="../../images/next-arrow.svg" alt="next" width="40px"></a>
+</h1>
+
+[← Pagina Inicial](../../README.md)
