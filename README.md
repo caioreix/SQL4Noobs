@@ -31,6 +31,7 @@
 ### SQL
 
 - [Conceitos Básicos](./modules/sql/conceitos_basicos.md)
+- [Iniciando](./modules/sql/starting/start.md)
 - Comandos
 - Operadores
 
