@@ -51,7 +51,7 @@ Demais! Agora você sabe mais sobre o que um SGBD é, faz e como ele é. Você a
 
 <h1 align="right">
 <a href="./banco_de_dados.md"><img src="../../images/previous-arrow.svg" alt="previous" width="40px"></a>
-<a href=""><img src="../../images/next-arrow.svg" alt="next" width="40px"></a>
+<a href="./conceitos_basicos.md"><img src="../../images/next-arrow.svg" alt="next" width="40px"></a>
 </h1>
 
 [← Pagina Inicial](../../README.md)
