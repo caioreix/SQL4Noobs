@@ -15,7 +15,8 @@
 5. Depois escolher sua senha avançe até finalizar a instalação.
 
 6. Para abrir é muito simples, apenas clique no command line:
-![MySQL_commandline](../../images/configuration/MySQL_commandline.png)
+
+<h1 align="center"><img src="../../images/configuration/MySQL_commandline.png" alt="sql-image" width="170"></h1>
 
 ## Linux
 

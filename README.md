@@ -24,7 +24,6 @@
 ### Ambiente de Trabalho
 
 - [Instalando o MySQL Server](./modules/configuration/installingMySQL.md)
-
 - Instalando o PostgreSQL
 
 ### SQL
