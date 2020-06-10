@@ -16,7 +16,7 @@
 
 6. Para abrir é muito simples, apenas clique no command line:
 
-<h1 align="center"><img src="../../images/configuration/MySQL_commandline.png" alt="sql-image" width="170"></h1>
+<h1 align="center"><img src="../../images/configuration/MySQL_commandline.png" alt="sql-image"></h1>
 
 ## Linux
 
