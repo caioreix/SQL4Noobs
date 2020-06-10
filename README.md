@@ -23,7 +23,7 @@
 
 ### Requisitos
 
-- Instalando o Banco de Dados
+- [Instalando o Banco de Dados](./modules/configuration/installingMySQL.md)
 - Usando no Powershell
 - MySQL Workbench (opcional)
 - PGAdmin (opcional)
