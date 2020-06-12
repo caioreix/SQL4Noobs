@@ -1,3 +1,5 @@
+/*oficina*/
+
   DROP DATABASE IF EXISTS oficina;
 CREATE DATABASE oficina;
    USE oficina;
@@ -89,3 +91,27 @@ VALUES ("F","(84) 974449242",34),("F","(38) 985738667",17),("C","(54) 969614751"
 
 INSERT INTO carros_cores (carros_id,cores_id)
 VALUES (34,4),(23,10),(5,4),(88,4),(51,11),(71,8),(13,7),(68,11),(71,5),(34,7),(15,4),(44,3),(26,11),(33,6),(56,2),(44,2),(77,5),(75,7),(23,3),(69,8),(82,2),(66,11),(14,10),(66,6),(46,5),(64,4),(92,1),(20,10),(33,8),(31,4),(80,9),(55,10),(17,3),(72,4),(69,4),(86,9),(97,10),(21,3),(8,11),(49,4),(41,2),(29,2),(70,6),(39,8),(39,6),(20,5),(12,8),(81,10),(14,4),(30,6),(65,7),(58,7),(97,5),(35,8),(75,6),(3,11),(55,6),(32,1),(41,10),(16,9),(9,4),(37,8),(80,7),(96,1),(47,11),(10,4),(6,3),(29,1),(45,9),(48,8),(45,11),(55,11),(18,2),(30,8),(17,7),(23,4),(87,5),(64,7),(93,2),(94,4),(52,6),(15,6),(100,5),(49,2),(98,7),(62,2),(61,7),(92,6),(13,8),(42,1),(73,4),(36,8),(10,1),(87,1),(90,8),(2,6),(86,3),(10,10),(49,5),(95,4);
+
+/*sandbox*/
+
+  DROP DATABASE IF EXISTS sandbox;
+CREATE DATABASE sandbox;
+   USE sandbox;
+
+/*TABLES*/
+
+CREATE TABLE clientes (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  nome VARCHAR(40) NOT NULL,
+  sexo CHAR(1) NOT NULL,
+  cpf CHAR(11) UNIQUE NOT NULL,
+  cidade VARCHAR(40) NOT NULL,
+  estado CHAR(2) NOT NULL
+);
+
+/*INSERTS*/
+
+INSERT INTO clientes (nome,sexo,cpf,cidade,estado)
+VALUES ('Pedro','M','12304760987','São Paulo','SP'),('Maria','F','82319422364','Rio de Janeiro','RJ'),('Laura','F','46387115276','Curitiba','PR'),('Marcos','M','43769265834','Natal','RN'),('Lucas','M','09384283245','Palmas','TO');
+
+/*COPIE TUDO!*/
