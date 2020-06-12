@@ -56,7 +56,7 @@ SELECT nome,cidade
 |  2 | Maria  | Rio de Janeiro |
 |  3 | Laura  | Curitiba       |
 |  4 | Marcos | Natal          |
-|  5 | Lucas  | Palmas         |
+|  5 | Lucas  | Santos         |
 
 ### SELECT *
 
@@ -76,7 +76,8 @@ SELECT *
 |  5 | Lucas  | M    | 09384283245 | Santos         | SP     |
 
 <h1 align="right">
-<a href="./statements.md"><img src="../../../images/previous-arrow.svg#Statements" alt="previous" width="40px"></a>
+<a href="./statements.md#statements"><img src="../../../images/previous-arrow.svg#Statements" alt="previous" width="40px"></a>
+<a href="./distinct.md#distinct"><img src="../../../images/next-arrow.svg" alt="next" width="40px"></a>
 </h1>
 
 [← Pagina Inicial](../../../README.md#--)
