@@ -112,6 +112,6 @@ CREATE TABLE clientes (
 /*INSERTS*/
 
 INSERT INTO clientes (nome,sexo,cpf,cidade,estado)
-VALUES ('Pedro','M','12304760987','São Paulo','SP'),('Maria','F','82319422364','Rio de Janeiro','RJ'),('Laura','F','46387115276','Curitiba','PR'),('Marcos','M','43769265834','Natal','RN'),('Lucas','M','09384283245','Palmas','TO');
+VALUES ('Pedro','M','12304760987','São Paulo','SP'),('Maria','F','82319422364','Rio de Janeiro','RJ'),('Laura','F','46387115276','Curitiba','PR'),('Marcos','M','43769265834','Natal','RN'),('Lucas','M','09384283245','Santos','SP');
 
 /*COPIE TUDO!*/
