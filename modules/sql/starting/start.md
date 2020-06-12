@@ -18,4 +18,8 @@ Para importar o banco siga os passos seguintes:
 
 4. Cole o schema no terminal e espere carregar.
 
+<h1 align="right">
+<a href="../statements/statements.md"><img src="../../../images/next-arrow.svg" alt="next" width="40px"></a>
+</h1>
+
 [← Pagina Inicial](../../../README.md)

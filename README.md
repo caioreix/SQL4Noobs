@@ -29,7 +29,7 @@
 ### SQL
 
 - [Iniciando](./modules/sql/starting/start.md)
-- Comandos
+- [Comandos](./modules/sql/statements/statements.md)
 - Operadores
 
 ### Banco de Dados
