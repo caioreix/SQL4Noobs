@@ -35,7 +35,7 @@ Para testar os exemplos seguintes é neccessário:
 
 ```sql
 SELECT sexo
-  FROM clientes
+  FROM clientes;
 ```
 
 #### Resultado
@@ -52,7 +52,7 @@ SELECT sexo
 
 ```sql
 SELECT DISTINCT sexo
-  FROM clientes
+  FROM clientes;
 ```
 
 #### Resultado
@@ -78,7 +78,7 @@ SELECT COUNT(DISTINCT sexo) AS Total
 |   4   |
 
 <h1 align="right">
-<a href="./select.md"><img src="../../../images/previous-arrow.svg#Statements" alt="previous" width="40px"></a>
+<a href="./select.md#select"><img src="../../../images/previous-arrow.svg#Statements" alt="previous" width="40px"></a>
 </h1>
 
 [← Pagina Inicial](../../../README.md#--)

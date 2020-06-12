@@ -45,24 +45,24 @@ Para testar os exemplos seguintes é neccessário:
 
 ```sql
 SELECT nome,cidade
-  FROM clientes
+  FROM clientes;
 ```
 
 #### Resultado
 
-| id | nome   | cidade         |
-|----|--------|----------------|
-|  1 | Pedro  | São Paulo      |
-|  2 | Maria  | Rio de Janeiro |
-|  3 | Laura  | Curitiba       |
-|  4 | Marcos | Natal          |
-|  5 | Lucas  | Santos         |
+| nome   | cidade         |
+|--------|----------------|
+| Pedro  | São Paulo      |
+| Maria  | Rio de Janeiro |
+| Laura  | Curitiba       |
+| Marcos | Natal          |
+| Lucas  | Santos         |
 
 ### SELECT *
 
 ```sql
 SELECT *
-  FROM clientes
+  FROM clientes;
 ```
 
 #### Resultado
