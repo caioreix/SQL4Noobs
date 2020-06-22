@@ -1,8 +1,8 @@
-[← Pagina Inicial](../../README.md)
+[← Pagina Inicial](../../README.md#--)
 
-<h1 align="center">Banco de dados<h1>
+<h1 align="center">Banco de dados</h1>
 
-![Um banco de dados (literalmente)](../../images/introduction/banco_de_dados.jpg)
+![Um banco de dados (literalmente)](../../images/introducao/banco_de_dados.jpg)
 
 ## Do Caos à Luz
 
@@ -41,8 +41,8 @@ Nada impede que eles façam um banco de dados só para as finanças, outro só p
 Muito bem! Agora você sabe um pouco mais sobre o que é um banco de dados, vamos passar então para os sistemas que os gerenciam.
 
 <h1 align="right">
-<a href="./sql.md"><img src="../../images/previous-arrow.svg" alt="previous" width="40px"></a>
-<a href="./sgbd.md"><img src="../../images/next-arrow.svg" alt="next" width="40px"></a>
+<a href="./sql.md#sql"><img src="../../images/previous-arrow.svg" alt="previous" width="40px"></a>
+<a href="./sgbd.md#sistemas-gerenciadores-de-bancos-de-dados-sgbd"><img src="../../images/next-arrow.svg" alt="next" width="40px"></a>
 </h1>
 
-[← Pagina Inicial](../../README.md)
+[← Pagina Inicial](../../README.md#--)

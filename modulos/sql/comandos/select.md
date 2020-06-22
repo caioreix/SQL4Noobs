@@ -11,6 +11,7 @@ SELECT coluna1, coluna2, coluna3
 ```
 
 ```colunas``` = Nome dos atributos da tabela que deseja puxar os dados separados por virgulas.
+
 ```tabela``` = Nome da tabela que deseja puxar os respectivos atributos.
 
 Caso queira puxar todos os dados use a seguinte sintaxe:
@@ -76,7 +77,7 @@ SELECT *
 |  5 | Lucas  | M    | 09384283245 | Santos         | SP     |
 
 <h1 align="right">
-<a href="./statements.md#statements"><img src="../../../images/previous-arrow.svg#Statements" alt="previous" width="40px"></a>
+<a href="./comandos.md#comandos"><img src="../../../images/previous-arrow.svg#Statements" alt="previous" width="40px"></a>
 <a href="./distinct.md#distinct"><img src="../../../images/next-arrow.svg" alt="next" width="40px"></a>
 </h1>
 

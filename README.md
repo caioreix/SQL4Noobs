@@ -16,20 +16,20 @@
 
 ### Introdução
 
-- [SQL](./modules/introduction/sql.md)
-- [Banco de dados](./modules/introduction/Banco_de_dados.md)
-- [SGBD](./modules/introduction/sgbd.md)
-- [Conceitos Básicos](./modules/sql/conceitos_basicos.md)
+- [SQL](./modulos/introducao/sql.md#sql)
+- [Banco de dados](./modulos/introducao/Banco_de_dados.md#banco-de-dados)
+- [SGBD](./modulos/introducao/sgbd.md#sgbd)
+- [Conceitos Básicos](./modulos/introducao/conceitos_basicos.md#conceitos-básicos)
 
 ### Ambiente de Trabalho
 
-- [Instalando o MySQL Server](./modules/configuration/installingMySQL.md)
+- [Instalando o MySQL Server](./modulos/ambiente_de_trabalho/instalando_o_mysql_server.md#instalando-o-mysql-server)
 - Instalando o PostgreSQL
 
 ### SQL
 
-- [Iniciando](./modules/sql/starting/start.md)
-- [Comandos](./modules/sql/statements/statements.md)
+- [Iniciando](./modulos/sql/iniciando/iniciando.md#iniciando)
+- [Comandos](./modulos/sql/comandos/comandos.md#comandos)
 - Operadores
 
 ### Banco de Dados

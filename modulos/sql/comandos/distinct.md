@@ -11,6 +11,7 @@ SELECT DISTINCT coluna1, coluna2, coluna3
 ```
 
 ```colunas``` = Nome dos atributos da tabela que deseja puxar os dados, separados por virgulas.
+
 ```tabela``` = Nome da tabela que deseja puxar os respectivos atributos.
 
 ## Tabela Base
@@ -34,7 +35,7 @@ Para testar os exemplos seguintes é neccessário:
 ### SELECT sem DISTINCT
 
 ```sql
-SELECT sexo
+SELECT estado
   FROM clientes;
 ```
 
@@ -51,7 +52,7 @@ SELECT sexo
 ### SELECT com DISTINCT
 
 ```sql
-SELECT DISTINCT sexo
+SELECT DISTINCT estado
   FROM clientes;
 ```
 
@@ -67,7 +68,7 @@ SELECT DISTINCT sexo
 ### Contando a Quantidade de Valores Diferentes
 
 ```sql
-SELECT COUNT(DISTINCT sexo) AS Total
+SELECT COUNT(DISTINCT estado) AS Total
   FROM clientes;
 ```
 

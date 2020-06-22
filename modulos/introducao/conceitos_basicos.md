@@ -1,6 +1,6 @@
-[← Pagina Inicial](../../README.md)
+[← Pagina Inicial](../../README.md#--)
 
-<h1 align="center">Conceitos Básicos<h1>
+<h1 align="center">Conceitos Básicos</h1>
 
 ## Introdução
 
@@ -41,7 +41,7 @@ Levando em conta os tipos de dados que podemos armazenar, precisamos encontrar u
 De acordo com a regra de negócio, faremos uma combinação entre o tipo de dado e a variável. Por exemplo: um valor monetário, de R$50, é um dado contínuo e de variável numérica, um texto com uma descrição de produto, pode ser enquadrado em classificação e variável de texto, etc. Com isso é possível estruturar melhor nossa base de dados de acordo com os dados que temos ou precisaremos.
 
 <h1 align="right">
-<a href="./sgbd.md"><img src="../../images/previous-arrow.svg" alt="previous" width="40px"></a>
+<a href="./sgbd.md##sistemas-gerenciadores-de-bancos-de-dados-sgbd"><img src="../../images/previous-arrow.svg" alt="previous" width="40px"></a>
 </h1>
 
-[← Pagina Inicial](../../README.md)
+[← Pagina Inicial](../../README.md#--)

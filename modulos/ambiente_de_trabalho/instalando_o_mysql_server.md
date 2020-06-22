@@ -1,6 +1,6 @@
-[← Pagina Inicial](../../README.md)
+[← Pagina Inicial](../../README.md#--)
 
-<h1 align="center">Instalando o MySQL Server<h1>
+<h1 align="center">Instalando o MySQL Server</h1>
 
 ## Windowns
 
@@ -16,7 +16,7 @@
 
 6. Para abrir é muito simples, apenas clique no command line:
 
-<h1 align="center"><img src="../../images/configuration/MySQL_commandline.png" alt="sql-image"></h1>
+<h1 align="center"><img src="../../images/ambiente_de_trabalho/MySQL_commandline.png" alt="sql-image"></h1>
 
 ## Linux
 
@@ -26,4 +26,4 @@ EM BREVE!
 
 EM BREVE!
 
-[← Pagina Inicial](../../README.md)
+[← Pagina Inicial](../../README.md#--)
