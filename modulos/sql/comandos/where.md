@@ -1,20 +1,24 @@
 [← Comandos](./comandos.md#comandos)
 
-<h1 align="center">Distinct</h1>
-<p align="center">O statement 'DISTINCT' é usado para projetar todos os valores, sem repetições.</br>Pode ser usado se você tiver valores repetidos em uma tabela e deseja retirar apenas um de cada.</p>
+<h1 align="center">Where</h1>
+<p align="center">O statement 'WHERE' é usado para filtrar registros.</br>Ele filtra os registros de acordo com a condição passada.</p>
 
 ## Sintaxe
 
 ```sql
-SELECT DISTINCT coluna1, coluna2, coluna3
-  FROM tabela;
+SELECT coluna1, coluna2, coluna3
+  FROM tabela
+ WHERE condição;
 ```
 
-```colunas``` = Nome dos atributos da tabela que deseja puxar os dados, separados por virgulas.
+```colunas``` = Nome dos atributos da tabela que deseja puxar os dados separados por virgulas.
 
 ```tabela``` = Nome da tabela que deseja puxar os respectivos atributos.
 
+```condição``` = A condicão usada para filtrar os registros.
+
 ## Tabela Base
+
 
 | id | nome   | sexo | cpf         | cidade         | estado |
 |----|--------|------|-------------|----------------|--------|
@@ -32,55 +36,43 @@ Para testar os exemplos seguintes é neccessário:
 2. [Importar o banco de dados](../iniciando/iniciando.md#iniciando).
 3. Usar o comando ```USE sandbox``` para acessar o banco.
 
-### SELECT sem DISTINCT
+### WHERE string
 
 ```sql
-SELECT estado
-  FROM clientes;
+SELECT nome,cidade
+  FROM clientes
+ WHERE sexo = 'M';
 ```
+
+>Em Alguns sistemas tambem é aceito o uso das aspas duplas "".
 
 #### Resultado
 
-| estado |
-|--------|
-| SP     |
-| RJ     |
-| PR     |
-| RN     |
-| SP     |
+| nome   | cidade    |
+|--------|-----------|
+| Pedro  | São Paulo |
+| Marcos | Natal     |
+| Lucas  | Santos    |
 
-### SELECT com DISTINCT
+### WHERE int
 
 ```sql
-SELECT DISTINCT estado
-  FROM clientes;
+SELECT nome,cidade
+  FROM clientes
+ WHERE id = 3;
 ```
+
+>Em valores inteiros não se usa as aspas.
 
 #### Resultado
 
-| estado |
-|--------|
-| SP     |
-| RJ     |
-| PR     |
-| RN     |
+| nome  | cidade   |
+|-------|----------|
+| Laura | Curitiba |
 
-### Contando a Quantidade de Valores Diferentes
-
-```sql
-SELECT COUNT(DISTINCT estado) AS Total
-  FROM clientes;
-```
-
-#### Resultado
-
-| Total |
-|-------|
-|   4   |
 
 <h1 align="right">
-<a href="./select.md#select"><img src="../../../images/previous-arrow.svg" alt="previous" width="40px"></a>
-<a href="./where.md#where"><img src="../../../images/next-arrow.svg" alt="next" width="40px"></a>
+<a href="./distinct.md#distinct"><img src="../../../images/previous-arrow.svg" alt="previous" width="40px"></a>
 </h1>
 
 [← Comandos](./comandos.md#comandos)

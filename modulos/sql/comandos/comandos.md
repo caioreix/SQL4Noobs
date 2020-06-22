@@ -6,6 +6,8 @@
 
 - **[Distinct](./distinct.md#distinct)** - O statement 'DISTINCT' é usado para projetar todos os valores, sem repetições.
 
+- **[Where](./where.md#where)** - O statement 'WHERE' é usado para filtrar registros.
+
 <h1 align="right">
 <a href="../iniciando/iniciando.md#iniciando"><img src="../../../images/previous-arrow.svg" alt="previous" width="40px"></a>
 </h1>

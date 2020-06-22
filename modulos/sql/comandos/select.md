@@ -1,4 +1,4 @@
-[← Pagina Inicial](../../../README.md#--)
+[← Comandos](./comandos.md#comandos)
 
 <h1 align="center">Select</h1>
 <p align="center">O statement 'SELECT' é usado para projetar dados do banco.</br>Os dados retornados serão retornados em uma tabela resultante chamada de 'result-set'.</p>
@@ -38,8 +38,8 @@ SELECT *
 
 Para testar os exemplos seguintes é neccessário:
 
-1. [Ter o MySQL baixado](../../configuration/installingMySQL.md#instalando-o-mysql-server).
-2. [Importar o banco de dados](../starting/start.md#iniciando).
+1. [Ter o MySQL baixado](../../ambiente_de_trabalho/instalando_o_mysql_server.md#instalando-o-mysql-server).
+2. [Importar o banco de dados](../iniciando/iniciando.md#iniciando).
 3. Usar o comando ```USE sandbox``` para acessar o banco.
 
 ### SELECT colunas
@@ -77,8 +77,8 @@ SELECT *
 |  5 | Lucas  | M    | 09384283245 | Santos         | SP     |
 
 <h1 align="right">
-<a href="./comandos.md#comandos"><img src="../../../images/previous-arrow.svg#Statements" alt="previous" width="40px"></a>
+<a href="./comandos.md#comandos"><img src="../../../images/previous-arrow.svg" alt="previous" width="40px"></a>
 <a href="./distinct.md#distinct"><img src="../../../images/next-arrow.svg" alt="next" width="40px"></a>
 </h1>
 
-[← Pagina Inicial](../../../README.md#--)
+[← Comandos](./comandos.md#comandos)
