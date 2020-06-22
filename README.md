@@ -30,7 +30,7 @@
 
 - [Iniciando](./modulos/sql/iniciando/iniciando.md#iniciando)
 - [Comandos](./modulos/sql/comandos/comandos.md#comandos)
-- Operadores
+- [Operadores](./modulos/sql/operadores/operadores.md#operadores)
 
 ### Banco de Dados
 
