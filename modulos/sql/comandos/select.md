@@ -6,7 +6,7 @@
 ## Sintaxe
 
 ```sql
-SELECT coluna1, coluna2, coluna3
+SELECT coluna1, coluna2, coluna3...
   FROM tabela;
 ```
 
@@ -77,7 +77,6 @@ SELECT *
 |  5 | Lucas  | M    | 09384283245 | Santos         | SP     |
 
 <h1 align="right">
-<a href="./comandos.md#comandos"><img src="../../../images/previous-arrow.svg" alt="previous" width="40px"></a>
 <a href="./distinct.md#distinct"><img src="../../../images/next-arrow.svg" alt="next" width="40px"></a>
 </h1>
 

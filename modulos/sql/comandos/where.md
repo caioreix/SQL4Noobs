@@ -6,7 +6,7 @@
 ## Sintaxe
 
 ```sql
-SELECT coluna1, coluna2, coluna3
+SELECT coluna1, coluna2, coluna3...
   FROM tabela
  WHERE condição;
 ```
@@ -73,6 +73,7 @@ SELECT nome,cidade
 
 <h1 align="right">
 <a href="./distinct.md#distinct"><img src="../../../images/previous-arrow.svg" alt="previous" width="40px"></a>
+<a href="./order_by.md#order-by"><img src="../../../images/next-arrow.svg" alt="next" width="40px"></a>
 </h1>
 
 [← Comandos](./comandos.md#comandos)

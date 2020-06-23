@@ -6,7 +6,7 @@
 ## Sintaxe
 
 ```sql
-SELECT DISTINCT coluna1, coluna2, coluna3
+SELECT DISTINCT coluna1, coluna2, coluna3...
   FROM tabela;
 ```
 
