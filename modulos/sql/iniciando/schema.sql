@@ -109,9 +109,21 @@ CREATE TABLE clientes (
   estado CHAR(2) NOT NULL
 );
 
+CREATE TABLE carros (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  modelo VARCHAR(40) NOT NULL,
+  marca VARCHAR(40) NOT NULL,
+  placa CHAR(8) UNIQUE NOT NULL,
+  clientes_id INT NOT NULL
+);
+
 /*INSERTS*/
 
 INSERT INTO clientes (nome,sexo,cpf,cidade,estado)
 VALUES ('Pedro','M','12304760987','São Paulo','SP'),('Maria','F','82319422364','Rio de Janeiro','RJ'),('Laura','F','46387115276','Curitiba','PR'),('Marcos','M','43769265834','Natal','RN'),('Lucas','M','09384283245','Santos','SP');
+
+INSERT INTO carros (modelo,marca,placa,clientes_id)
+VALUES ('Corsa 1.0','Chevrolet','FRE-0293','3'),
+       ('Gol 2.0','Volkswagen','XNE-9824','2');
 
 /*COPIE TUDO!*/
