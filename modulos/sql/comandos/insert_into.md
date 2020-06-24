@@ -99,7 +99,7 @@ VALUES (NULL,'Gol G5','Volkswagen','NXO-6971',4);
 |  6 | Gol G5     | Volkswagen | NXO-6971 |           4 |
 
 <h1 align="right">
-<a href="./where.md#where"><img src="../../../images/previous-arrow.svg" alt="previous" width="40px"></a>
+<a href="./order_by.md#order-by"><img src="../../../images/previous-arrow.svg" alt="previous" width="40px"></a>
 </h1>
 
 [← Comandos](./comandos.md#comandos)

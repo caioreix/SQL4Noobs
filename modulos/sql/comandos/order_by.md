@@ -111,6 +111,7 @@ SELECT *
 
 <h1 align="right">
 <a href="./where.md#where"><img src="../../../images/previous-arrow.svg" alt="previous" width="40px"></a>
+<a href="./insert_into.md#insert-into"><img src="../../../images/next-arrow.svg" alt="next" width="40px"></a>
 </h1>
 
 [← Comandos](./comandos.md#comandos)
