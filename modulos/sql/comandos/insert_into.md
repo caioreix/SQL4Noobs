@@ -12,7 +12,7 @@ VALUES (valor1, valor2, valor3, ...);
 
 ```tabela``` = Nome da tabela que deseja puxar os respectivos atributos.
 
-```colunas``` = Nome dos atributos da tabela que deseja puxar os dados separados por virgulas.
+```colunas``` = Nome dos atributos da tabela que deseja puxar os dados separados por vírgulas.
 
 ```valores``` = Valor que será inserido na tabela na respectiva ordem das colunas.
 
@@ -29,7 +29,7 @@ VALUES (valor1, valor2, valor3, ...);
 
 ```valores``` = Valor que sera inserido na tabela na respectiva ordem das colunas da tabela.
 
->Nessa opção é necessario inserir registros em todas as colunas, na respectiva ordem em que foi criada a tabela.
+>Nessa opção é necessário inserir registros em todas as colunas, na respectiva ordem em que foi criada a tabela.
 
 ## Tabela Base
 
@@ -40,7 +40,7 @@ VALUES (valor1, valor2, valor3, ...);
 
 ## Exemplos
 
-Para testar os exemplos seguintes é neccessário:
+Para testar os exemplos seguintes é necessário:
 
 1. [Ter o MySQL baixado](../../ambiente_de_trabalho/instalando_o_mysql_server.md#instalando-o-mysql-server).
 2. [Importar o banco de dados](../iniciando/iniciando.md#iniciando).
@@ -49,8 +49,8 @@ Para testar os exemplos seguintes é neccessário:
 ### INSERT INTO com colunas
 
 ```sql
-INSERT INTO carros(modelo,marca,placa,clientes_id)
-VALUES ('Fiesta','Ford','KEQ-4831',4);
+INSERT INTO carros (modelo, marca, placa, clientes_id)
+VALUES ('Fiesta', 'Ford', 'KEQ-4831', 4);
 ```
 
 #### Resultado
@@ -61,11 +61,11 @@ VALUES ('Fiesta','Ford','KEQ-4831',4);
 |  2 | Gol 2.0   | Volkswagen | XNE-9824 |           2 |
 |  3 | Fiesta    | Ford       | KEQ-4831 |           4 |
 
-### INSERT INTO multiplas inserções
+### INSERT INTO múltiplas inserções
 
 ```sql
-INSERT INTO carros(modelo,marca,placa,clientes_id)
-VALUES ('Cybertruck','Tesla','FUK-4711',1),('F8 Spider','Ferrari','CHP-6131',1);
+INSERT INTO carros (modelo, marca, placa, clientes_id)
+VALUES ('Cybertruck', 'Tesla', 'FUK-4711', 1), ('F8 Spider', 'Ferrari', 'CHP-6131', 1);
 ```
 
 #### Resultado
@@ -82,7 +82,7 @@ VALUES ('Cybertruck','Tesla','FUK-4711',1),('F8 Spider','Ferrari','CHP-6131',1);
 
 ```sql
 INSERT INTO carros
-VALUES (NULL,'Gol G5','Volkswagen','NXO-6971',4);
+VALUES (NULL, 'Gol G5', 'Volkswagen', 'NXO-6971', 4);
 ```
 
 >O primeiro valor é nulo pelo fato de ser no campo do 'id' que se auto incrementa.

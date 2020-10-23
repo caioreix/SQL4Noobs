@@ -1,7 +1,7 @@
 [← Operadores](./operadores.md#operadores)
 
 <h1 align="center">Not</h1>
-<p align="center">O operador 'NOT' é utilizado negar uma afirmação, caso uma condição seja verdadeira se tornará falsa ou caso seja falsa se tornará verdadeira.</p>
+<p align="center">O operador 'NOT' é utilizado para negar uma afirmação, caso uma condição seja verdadeira se tornará falsa ou caso seja falsa se tornará verdadeira.</p>
 
 ## Sintaxe
 
@@ -11,14 +11,13 @@ SELECT coluna1, coluna2, coluna3
  WHERE NOT condição;
 ```
 
-```colunas``` = Nome dos atributos da tabela que deseja puxar os dados separados por virgulas.
+```colunas``` = Nome dos atributos da tabela que deseja puxar os dados separados por vírgulas.
 
 ```tabela``` = Nome da tabela que deseja puxar os respectivos atributos.
 
-```condição``` = A condicão usada para filtrar os registros.
+```condição``` = A condição usada para filtrar os registros.
 
 ## Tabela Base
-
 
 | id | nome   | sexo | cpf         | cidade         | estado |
 |----|--------|------|-------------|----------------|--------|
@@ -39,15 +38,14 @@ Para testar os exemplos seguintes é neccessário:
 ### NOT
 
 ```sql
-SELECT nome,cidade
+SELECT nome, cidade
   FROM clientes
  WHERE NOT sexo = 'M';
 ```
 
->Em Alguns sistemas tambem é aceito o uso das aspas duplas "".
+>Em alguns sistemas também é aceito o uso das aspas duplas "".
 
 #### Resultado
-
 
 | nome  | cidade         |
 |-------|----------------|
@@ -58,7 +56,7 @@ SELECT nome,cidade
 ### NOT com AND
 
 ```sql
-SELECT nome,cidade
+SELECT nome, cidade
   FROM clientes
  WHERE sexo = 'M' AND NOT cidade = 'Natal';
 ```
@@ -73,13 +71,12 @@ SELECT nome,cidade
 ### NOT com OR
 
 ```sql
-SELECT nome,cidade
+SELECT nome, cidade
   FROM clientes
  WHERE sexo = 'M' OR NOT cidade = 'Curitiba';
 ```
 
 #### Resultado
-
 
 | nome   | cidade         |
 |--------|----------------|
@@ -87,7 +84,6 @@ SELECT nome,cidade
 | Maria  | Rio de Janeiro |
 | Marcos | Natal          |
 | Lucas  | Santos         |
-
 
 <h1 align="right">
 <a href="./or.md#or"><img src="../../../images/previous-arrow.svg" alt="previous" width="40px"></a>

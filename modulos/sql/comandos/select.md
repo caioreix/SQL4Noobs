@@ -10,7 +10,7 @@ SELECT coluna1, coluna2, coluna3...
   FROM tabela;
 ```
 
-```colunas``` = Nome dos atributos da tabela que deseja puxar os dados separados por virgulas.
+```colunas``` = Nome dos atributos da tabela que deseja puxar os dados separados por vírgulas.
 
 ```tabela``` = Nome da tabela que deseja puxar os respectivos atributos.
 
@@ -25,7 +25,6 @@ SELECT *
 
 ## Tabela Base
 
-
 | id | nome   | sexo | cpf         | cidade         | estado |
 |----|--------|------|-------------|----------------|--------|
 |  1 | Pedro  | M    | 12304760987 | São Paulo      | SP     |
@@ -36,7 +35,7 @@ SELECT *
 
 ## Exemplos
 
-Para testar os exemplos seguintes é neccessário:
+Para testar os exemplos seguintes é necessários:
 
 1. [Ter o MySQL baixado](../../ambiente_de_trabalho/instalando_o_mysql_server.md#instalando-o-mysql-server).
 2. [Importar o banco de dados](../iniciando/iniciando.md#iniciando).
@@ -45,7 +44,7 @@ Para testar os exemplos seguintes é neccessário:
 ### SELECT colunas
 
 ```sql
-SELECT nome,cidade
+SELECT nome, cidade
   FROM clientes;
 ```
 

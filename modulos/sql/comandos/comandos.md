@@ -2,7 +2,6 @@
 
 <h1 align="center">Comandos</h1>
 
-
 | Comando                                     | Descrição                                                                                 |
 |---------------------------------------------|-------------------------------------------------------------------------------------------|
 | [Select](./select.md#select)                | O statement 'SELECT' é usado para projetar dados do Banco.                                |

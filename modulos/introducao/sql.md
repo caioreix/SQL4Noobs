@@ -15,7 +15,7 @@ O SQL é uma linguagem de pesquisa padrão, mas atente-se ao *padrão*, os siste
 
 Beleza, é uma linguagem para pesquisar em bancos de dados, mas o que ela vai fazer? Por quê ela existe? Por quê é tão usada?
 
-Ela foi introduzida no final dos anos 80, começo dos 90. Grandes empresas necessitavam de sistemas que mantessem os dados da forma mais segura e acessível possível, foi então que as empresas que faziam *softwares* que tinham o intuito de entregar isso, resolveram tentar criar um padrão, pois seus programas contavam com diversos dialetos diferentes para gerenciar os dados, e para facilitar para seus clientes e para eles mesmos, chamaram a ANSI e a ISO para estruturar um padrão de forma oficial, que se tornou o SQL. (resumo da história)
+Ela foi introduzida no final dos anos 80, começo dos 90. Grandes empresas necessitavam de sistemas que mantivesse os dados da forma mais segura e acessível possível, foi então que as empresas que faziam *softwares* que tinham o intuito de entregar isso, resolveram tentar criar um padrão, pois seus programas contavam com diversos dialetos diferentes para gerenciar os dados, e para facilitar para seus clientes e para eles mesmos, chamaram a ANSI e a ISO para estruturar um padrão de forma oficial, que se tornou o SQL. (resumo da história)
 
 Legal, mas o quê o SQL realmente faz? A função do SQL é permitir que você gerencie um banco de dados e resgate os dados dele da forma como quiser, claro que dentro das suas limitações, usando uma expressão que representa uma consulta ou comando para o banco de dados. Ele fornece um padrão que facilita o seu uso e leitura, parecido com o que chamamos de "linguagem natural", ou seja, ele tenta ser o mais próximo possível da linguagem humana (língua inglesa, nesse caso).
 

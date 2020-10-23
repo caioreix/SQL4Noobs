@@ -17,8 +17,8 @@
 ### Introdução
 
 - [SQL](./modulos/introducao/sql.md#sql)
-- [Banco de dados](./modulos/introducao/Banco_de_dados.md#banco-de-dados)
-- [SGBD](./modulos/introducao/sgbd.md#sgbd)
+- [Banco de dados](./modulos/introducao/banco_de_dados.md#banco-de-dados)
+- [SGBD](./modulos/introducao/sgbd.md#sistemas-gerenciadores-de-bancos-de-dados-sgbd)
 - [Conceitos Básicos](./modulos/introducao/conceitos_basicos.md#conceitos-básicos)
 
 ### Ambiente de Trabalho

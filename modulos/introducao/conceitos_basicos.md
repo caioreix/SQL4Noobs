@@ -6,7 +6,7 @@
 
 Neste módulo falaremos sobre alguns conceitos básicos que devem ser necessários para entender esse mundo dos Bancos de Dados que existe mundo afora.
 
-## Niveís atômicos
+## Níveis atômicos
 
 ### Dados
 

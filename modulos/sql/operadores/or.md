@@ -11,14 +11,13 @@ SELECT coluna1, coluna2, coluna3
  WHERE condição1 OR condição2;
 ```
 
-```colunas``` = Nome dos atributos da tabela que deseja puxar os dados separados por virgulas.
+```colunas``` = Nome dos atributos da tabela que deseja puxar os dados separados por vírgulas.
 
 ```tabela``` = Nome da tabela que deseja puxar os respectivos atributos.
 
 ```condição``` = A condicão usada para filtrar os registros.
 
 ## Tabela Base
-
 
 | id | nome   | sexo | cpf         | cidade         | estado |
 |----|--------|------|-------------|----------------|--------|
@@ -39,12 +38,12 @@ Para testar os exemplos seguintes é neccessário:
 ### AND
 
 ```sql
-SELECT nome,cidade
+SELECT nome, cidade
   FROM clientes
  WHERE sexo = 'M' OR cidade = 'Curitiba';
 ```
 
->Em Alguns sistemas tambem é aceito o uso das aspas duplas "".
+>Em alguns sistemas também é aceito o uso das aspas duplas "".
 
 #### Resultado
 
@@ -58,7 +57,7 @@ SELECT nome,cidade
 ### OR com AND
 
 ```sql
-SELECT nome,cidade
+SELECT nome, cidade
   FROM clientes
  WHERE cidade = 'Natal' OR cidade = 'Santos' AND sexo = 'M';
 ```
@@ -73,13 +72,12 @@ SELECT nome,cidade
 ### OR com NOT
 
 ```sql
-SELECT nome,cidade
+SELECT nome, cidade
   FROM clientes
  WHERE sexo = 'M' OR NOT cidade = 'Curitiba';
 ```
 
 #### Resultado
-
 
 | nome   | cidade         |
 |--------|----------------|
@@ -87,8 +85,6 @@ SELECT nome,cidade
 | Maria  | Rio de Janeiro |
 | Marcos | Natal          |
 | Lucas  | Santos         |
-
-
 
 <h1 align="right">
 <a href="./and.md#and"><img src="../../../images/previous-arrow.svg" alt="previous" width="40px"></a>
