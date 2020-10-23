@@ -11,14 +11,13 @@ SELECT coluna1, coluna2, coluna3
  WHERE condição1 AND condição2;
 ```
 
-```colunas``` = Nome dos atributos da tabela que deseja puxar os dados separados por virgulas.
+```colunas``` = Nome dos atributos da tabela que deseja puxar os dados separados por vírgulas.
 
 ```tabela``` = Nome da tabela que deseja puxar os respectivos atributos.
 
-```condição``` = A condicão usada para filtrar os registros.
+```condição``` = A condição usada para filtrar os registros.
 
 ## Tabela Base
-
 
 | id | nome   | sexo | cpf         | cidade         | estado |
 |----|--------|------|-------------|----------------|--------|
@@ -30,7 +29,7 @@ SELECT coluna1, coluna2, coluna3
 
 ## Exemplos
 
-Para testar os exemplos seguintes é neccessário:
+Para testar os exemplos seguintes é necessário:
 
 1. [Ter o MySQL baixado](../../ambiente_de_trabalho/instalando_o_mysql_server.md#instalando-o-mysql-server).
 2. [Importar o banco de dados](../iniciando/iniciando.md#iniciando).
@@ -39,12 +38,12 @@ Para testar os exemplos seguintes é neccessário:
 ### AND
 
 ```sql
-SELECT nome,cidade
+SELECT nome, cidade
   FROM clientes
  WHERE sexo = 'M' AND cidade = 'Natal';
 ```
 
->Em Alguns sistemas tambem é aceito o uso das aspas duplas "".
+>Em alguns sistemas também é aceito o uso das aspas duplas "".
 
 #### Resultado
 
@@ -55,7 +54,7 @@ SELECT nome,cidade
 ### AND com OR
 
 ```sql
-SELECT nome,cidade
+SELECT nome, cidade
   FROM clientes
  WHERE sexo = 'M' AND cidade = 'Natal' OR cidade = 'Santos';
 ```
@@ -70,7 +69,7 @@ SELECT nome,cidade
 ### AND com NOT
 
 ```sql
-SELECT nome,cidade
+SELECT nome, cidade
   FROM clientes
  WHERE sexo = 'M' AND NOT cidade = 'Natal';
 ```
@@ -81,7 +80,6 @@ SELECT nome,cidade
 |-------|-----------|
 | Pedro | São Paulo |
 | Lucas | Santos    |
-
 
 <h1 align="right">
 <a href="./or.md#or"><img src="../../../images/next-arrow.svg" alt="next" width="40px"></a>

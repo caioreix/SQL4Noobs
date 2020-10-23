@@ -19,7 +19,7 @@ Complicado né? Fique tranquilo, você vai usar a maior parte do tempo só o pro
 
 ## O que você pode fazer com um SGBD
 
-Um SGBD vai lher permitir diversas funcionalidades, por exemplo: 
+Um SGBD vai lhe permitir diversas funcionalidades, por exemplo: 
 * criar, deletar e modificar bancos de dados;
 * fazer consultas nos bancos de dados;
 * controlar quem acessa certas visões (espécie de consulta fixa);

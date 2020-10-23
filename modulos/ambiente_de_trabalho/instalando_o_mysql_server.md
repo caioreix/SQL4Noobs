@@ -2,7 +2,7 @@
 
 <h1 align="center">Instalando o MySQL Server</h1>
 
-## Windowns
+## Windows
 
 1. Acesse esse [site](https://dev.mysql.com/downloads/installer/) e baixe a versão mais leve
 

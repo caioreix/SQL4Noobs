@@ -10,7 +10,7 @@ Durante nossos estudos, diversos exercícios serão passados, e para uma melhor 
 
 Para importar o banco siga os passos seguintes:
 
-1. Abra o MySQL Comand Line Client(Terminal).
+1. Abra o MySQL Command Line Client (Terminal).
 
 2. Coloque a sua senha para acessar o banco de dados.
 
